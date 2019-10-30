@@ -1,0 +1,12 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        bind:
+            $refreshToken: '%mschlueter_sonos_api.refresh_token%'
+            $clientKey: '%mschlueter_sonos_api.client_key%'
+            $clientSecret: '%mschlueter_sonos_api.client_secret%'
+
+    Mschlueter\Bundle\SonosApiBundle\:
+        resource: '../../*'
+        exclude: '../../{DependencyInjection,Entity,Migrations,Tests}'
