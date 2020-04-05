@@ -9,11 +9,11 @@
     "license": "MIT",
     "require": {
         "php": "^7.3",
-        "symfony/config": "^4.3",
-        "symfony/dependency-injection": "^4.3",
-        "symfony/http-client": "^4.3",
-        "symfony/http-kernel": "^4.3",
-        "symfony/serializer": "^4.3"
+        "symfony/config": "^4.3 || ^5",
+        "symfony/dependency-injection": "^4.3 || ^5",
+        "symfony/http-client": "^4.3 || ^5",
+        "symfony/http-kernel": "^4.3 || ^5",
+        "symfony/serializer": "^4.3 || ^5"
     },
     "autoload": {
         "psr-4": {

@@ -9,4 +9,4 @@ services:
 
     Mschlueter\Bundle\SonosApiBundle\:
         resource: '../../*'
-        exclude: '../../{DependencyInjection,Entity,Migrations,Tests}'
+        exclude: '../../**/{DependencyInjection,Dto,Entity,Migrations,Tests}'
